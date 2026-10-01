@@ -1,0 +1,28 @@
+# StudyMate AI - runtime dependencies (Python 3.11+)
+
+# --- UI ---
+streamlit>=1.36.0
+
+# --- LangChain core + integrations ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+langchain-anthropic>=0.3.0
+langchain-chroma>=0.2.0
+langchain-huggingface>=0.1.2
+
+# --- Vector store ---
+chromadb>=0.5.0
+
+# --- Local embeddings (all-MiniLM-L6-v2) ---
+sentence-transformers>=3.0.0
+
+# --- PDF text extraction ---
+pypdf>=4.3.0
+
+# --- Config ---
+python-dotenv>=1.0.1
+
+# --- Tests ---
+pytest>=8.2.0
